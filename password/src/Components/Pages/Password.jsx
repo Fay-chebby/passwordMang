@@ -56,11 +56,7 @@ export const Password = () => {
     return (
         <div>
             <div className="container">
-                <div>
-                    <div className="password-image">
-                        <img src={passwordImage} alt="Password" width="600px" height="600px" />
-                    </div>
-                </div>
+
                 <div className="sign__container">
                     <fieldset>
                         <form onSubmit={handleSubmit}>

@@ -30,24 +30,26 @@ export const Home = () => {
     ];
 
     return (
-        <div>
+        <div className="container">
             <div className="pass">
             <div className="password">
+                <div className="word">
                 <div className="words">
+                    <div className="man">
                     <span>Password</span><br/>
                     <span>Manager </span><br/>
                     <span>For all accounts</span><br/>
-                    <p>Most things revolve on online activities, </p>
-                    <p>Password manager puts your life at your tips , simple and secure</p>
-
+                    </div>
+                    <p className="par">Most things revolve on online activities, </p>
+                    <p className="par">Password manager puts your life at your tips,simple and secure</p>
+                    <button className="btn">Sign up</button>
+                </div>
                 </div>
                 <div className="pic">
                     <div className="phone-image">
-                        <img src={phonePic} alt="Password" width="600px" height="600px"/>
+                        <img className="phone-images"      src={phonePic} alt="Password" width="600px" height="600px"/>
                     </div>
-                    <div>
-                        <p> Protect your accounts</p>
-                    </div>
+
 
 
                 </div>
@@ -57,13 +59,13 @@ export const Home = () => {
                         <div className="password-image">
                             <img src={laptopPic} alt="Password" width="600px" height="600px"/>
                         </div>
-                        <p>Be safe with us</p>
+                        <p className="para2">💯 safety</p>
                     </div>
                     <div>
-                        <div className="password-image">
+                        <div className="password-images">
                             <img src={passPic} alt="Password" width="600px" height="600px"/>
                         </div>
-                        <p>Trust</p>
+                        <p className="para2">Trust</p>
                     </div>
 
                 </div>
